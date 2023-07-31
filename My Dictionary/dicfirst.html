@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Dictionary</title>
+    <link rel="icon" type="image/x-icon" href="./images/dictionaryIcon.png">
+    <link rel="stylesheet" href="./dic.css">
+</head>
+<body>
+
+    <!-- search page -->
+    <section class="mainpage">
+        <div class="namehistory">
+            <div class="image-heading">
+                <img class="dicimage" src="./images/dictionaryIcon.png" alt="dictionary app"/>
+                <h2 class="heading"> DICTIONARY App</h2>
+            </div>
+            <button type="submit" id="histbtn" class="histbtn" onclick="goToHistory()">HISTORY</button>
+        </div>
+
+
+        <div class="search">
+            <p class="Searchpara">Search for new word</p>
+            <div class="search-btn-icon">
+                <input id="searchinput" class="searchfield" type="text" placeholder="Type the word here!"/>
+                <button type="button" onclick="fetchAPI()"  class="search-button" id="searchbtn">
+                    <img class="img-search-button"  src="./images/searchIcon.jpeg"/>
+                </button>
+            </div>
+        </div>
+        <div class="meaning-card-container" id="meaningcardfirst">
+            <div class="meaning-card" id="meaningcard">
+                <h2 class="main-meaning-heading" id="wordheading"></h2>
+                <p class="main-word-meaning" id="wordmeaning"></p>
+                
+            </div>
+        </div>
+    </section>
+
+    <script src="./dic.js"></script>
+</body>
+</html>

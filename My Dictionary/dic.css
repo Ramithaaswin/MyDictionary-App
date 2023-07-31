@@ -1,0 +1,173 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* search page */
+.namehistory{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    font-size: 20px;
+}
+.image-heading{
+    display: flex;
+    flex-direction: row;
+}
+.dicimage{
+    height: 70px;
+    width: 70px;
+}
+.heading{
+    font-weight: 700; 
+}
+.histbtn{
+    width: 150px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    font-size: large;
+    border-radius: 10px;
+    border: none;
+}
+.histbtn:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+}
+.search{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 100px;
+    cursor: auto;r
+}
+.Searchpara{
+    font-size: 30px;
+    padding-bottom: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.searchfield{
+    width: 30ch;
+    height: 35px;
+    border-radius: 30px;
+    background-color: rgb(230, 228, 228);
+    border: none;
+}
+.search-btn-icon{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.search-button{
+    border: none;
+    border-radius: 50px;
+}
+.search-button:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+    
+.img-search-button{
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+}
+.meaning-card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.meaning-card{
+    border: none;
+    background-color:rgb(255, 255, 255);
+    color: black;
+    width: 300px;
+    height: 350px;
+    padding: 20px;  
+    border-radius: 5px; 
+}
+.main-meaning-heading{
+    font-size: 30px;
+    /* padding: 20px; */
+}
+.main-word-meaning{
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+
+/* history page */
+.historypage{
+    padding: 50px;
+}
+.history{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    font-size: 20px;
+}
+.historyhead{
+    font-weight: 700;
+}
+.historysearchbtn{
+    width: 150px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    font-size: large;
+    border-radius: 10px;
+    border: none;
+}
+.historysearchbtn:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+/* card container */
+.card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 90px;
+}
+.card{
+    height: 500px;
+    width: 300px;
+    background-color: rgb(199, 198, 198);
+    border-radius: 5px;
+    position: relative;
+}
+.delete-btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    border: none;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    
+}
+.delete-btn:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+}
+.delete-btn-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+} 
+.meaning-heading{
+    padding: 25px;
+    font-size: 35px;
+}
+.word-meaning{
+    padding: 25px;
+    font-size: 25px;
+    
+}
